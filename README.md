@@ -1,7 +1,7 @@
 PTCG-Arena downloads
 
-Latest round-three build: submission_round3.tar.gz (competition upload), or submission_round3.zip (backup).
+Latest competition upload: submission_round4.tar.gz.
 
-Both archives contain only root main.py and deck.csv. This build keeps the tested baseline deck after native-engine deck comparisons: Battle Cage, Hero’s Cape, Lively Stadium, and DeepSeek fixed4 variants did not beat the control in confirmation runs. The agent includes scoped immunity, coloured Energy saturation, projected attack legality, actual effect attachment sources, Spiky retaliation endgame handling, and the current minCount/maxCount range contract.
+This build keeps the validated agent core and uses the confirmed hybrid deck: 2 Munkidori and Dark Energy are retained; 3 Xerosic’s Machinations and Precious Trolley are replaced by 1 Hero’s Cape and 3 Lillie’s Determination. In 1,500 native-engine games against the frozen matchup pool it scored 1,004 wins (66.9%) versus 952/1,499 (63.5%) for the previous deck; the difference is local evidence, not a tournament guarantee. The deck has one legal ACE SPEC and all 1,500 hybrid games completed without agent errors.
 
-Validation: 25 regression checks, 20,000 generated legal-menu checks, archive extraction/import checks, and 800 fresh native-engine deck comparison games completed without candidate runtime errors. Tournament leaderboard APIs expose aggregate scores only, so no tournament win-rate claim is made from local matches.
+The agent core includes scoped immunity, coloured Energy saturation, projected attack legality, actual effect attachment sources, Spiky retaliation endgame handling, and the current minCount/maxCount range contract.
