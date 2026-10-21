@@ -1,7 +1,7 @@
 PTCG-Arena downloads
 
-Latest competition upload: submission_round4.tar.gz.
+Latest candidate upload: submission_round5.tar.gz.
 
-This build keeps the validated agent core and uses the confirmed hybrid deck: 2 Munkidori and Dark Energy are retained; 3 Xerosic’s Machinations and Precious Trolley are replaced by 1 Hero’s Cape and 3 Lillie’s Determination. In 1,500 native-engine games against the frozen matchup pool it scored 1,004 wins (66.9%) versus 952/1,499 (63.5%) for the previous deck; the difference is local evidence, not a tournament guarantee. The deck has one legal ACE SPEC and all 1,500 hybrid games completed without agent errors.
+This candidate keeps the validated round4 core and its Hero's Cape/Munkidori package, while replacing 1 Cheren and 1 Naveen with 2 Xerosic's Machinations. The intent is to target the persistent team11 losses against the Alakazam/hand-heavy top teams while retaining the Munkidori damage-counter line for Ogerpon-style matchups. In a 1,000-game native-engine confirmation against the frozen pool it scored 671.5 half-point wins (67.15%); this is local evidence only, not a tournament guarantee.
 
-The agent core includes scoped immunity, coloured Energy saturation, projected attack legality, actual effect attachment sources, Spiky retaliation endgame handling, and the current minCount/maxCount range contract.
+SHA-256: c2f47eef6c24929dc2b1c6cab92c44f3a28a0b93031ba237002f29cb28c1d221
